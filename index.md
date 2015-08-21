@@ -9,6 +9,7 @@ Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.ht
 
 
 ## Follow Teampass
+<div class="posts">
         <!-- FACEBOOK -->
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
@@ -26,6 +27,7 @@ data-header="false" data-stream="false" data-show-border="false"></div>
         <script>!function(d,s,id){var
 js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs)$
         </div>
+</div>
 
 
 ## Update Author Attributes
