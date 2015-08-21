@@ -45,7 +45,6 @@ We need to clean up the themes, make theme usage guides with theme-specific mark
 
 
 <div class="post">
-	{% if paginator.page == 1 %}
 	<!-- FACEBOOK -->
 	<h1 class="post-title">Follow Teampass</h1>
 	<div id="fb-root"></div>
@@ -64,5 +63,4 @@ data-header="false" data-stream="false" data-show-border="false"></div>
 	<script>!function(d,s,id){var 
 js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	</div>
-	{% endif %}
 </div>
