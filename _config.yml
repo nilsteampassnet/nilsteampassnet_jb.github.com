@@ -82,7 +82,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : slinouille
+      short_name : teampass
     livefyre :
       site_id : 123
     intensedebate :
