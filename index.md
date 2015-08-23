@@ -32,7 +32,7 @@ Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.ht
         <div class="fb-like-box" data-href="http://www.facebook.com/pages/TeamPass-Passwords-for-Teams/163627833721400" data-width="600" data-show-faces="true"
 data-header="false" data-stream="false" data-show-border="false"></div>
 </div>
-<br>
+<br />
 <div class="posts">
 	<!-- TWITTER -->
         <a href="https://twitter.com/TheTeamPass" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @theteampass</a>
