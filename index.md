@@ -5,12 +5,12 @@ tagline: Welcome to Teampass.Net
 ---
 {% include JB/setup %}
 
-#Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 <div class="post">
 	TeamPass is a Passwords Manager dedicated for managing passwords in a collaborative way on any server Apache, MySQL and PHP. It is especially designed to 
 provide passwords access security for allowed people. This makes TeamPass really useful in a Business/Enterprise environment and will provide to IT or Team Manager a 
-powerful and easy tool for customizing passwords access depending on the user’s role.
+powerful and easy tool for customizing passwords access depending on the user's role.
+<br />
 </div>
 
 ## Follow Teampass
@@ -30,6 +30,7 @@ data-header="false" data-stream="false" data-show-border="false"></div>
         <!-- TWITTER -->
         <a href="https://twitter.com/TheTeamPass" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @theteampass</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	<br />
 </div>
 
 ## Latest Posts
@@ -59,7 +60,7 @@ data-header="false" data-stream="false" data-show-border="false"></div>
       </a>
     </h2>
     <span class="post-date">
-			{{ post.date | date_to_string }} •
+			{{ post.date | date_to_string }} *
 			<a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.path | split:'/' | last | cgi_escape }}">View 
 Comments</a>
 		</span>
@@ -73,7 +74,8 @@ Comments</a>
   </div>
   {% endfor %}
 	
-</div> <div class="pagination">
+</div>
+<div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
   {% else %}
