@@ -23,7 +23,7 @@ data-header="false" data-stream="false" data-show-border="false"></div>
         <br /><br />
         <!-- TWITTER -->
         <a href="https://twitter.com/TheTeamPass" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @theteampass</a>
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js"$
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 </div>
 
 ## Latest Posts
