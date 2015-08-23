@@ -3,6 +3,7 @@ layout: 		page
 title: 			About
 comments:		false
 noToc:		true
+group:		navigation
 ---
 
 <p class="message">

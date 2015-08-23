@@ -2,6 +2,7 @@
 layout: 		page
 title: 			Requirements
 noToc:			true
+group:          navigation
 ---
 
 <p class="message">

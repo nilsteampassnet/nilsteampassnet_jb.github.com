@@ -4,6 +4,7 @@ title: 			Languages
 comments:		true
 comments_count:	false
 noToc:			true
+group:          navigation
 ---
 
 <p class="message">

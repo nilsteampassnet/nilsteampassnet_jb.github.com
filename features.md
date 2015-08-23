@@ -2,6 +2,7 @@
 layout: 		page
 title: 			Features
 noToc:			false
+group:          navigation
 ---
 
 <p class="message">

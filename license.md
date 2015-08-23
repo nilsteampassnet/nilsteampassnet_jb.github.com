@@ -1,6 +1,7 @@
 ---
 layout: page
 title: License
+group:          navigation
 ---
 
 Since version 2.1, TeamPass is distributed under licence GNU Affero GPL 3.
