@@ -5,7 +5,13 @@ tagline: Welcome to Teampass.Net
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+#Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+
+<div class="post">
+	TeamPass is a Passwords Manager dedicated for managing passwords in a collaborative way on any server Apache, MySQL and PHP. It is especially designed to 
+provide passwords access security for allowed people. This makes TeamPass really useful in a Business/Enterprise environment and will provide to IT or Team Manager a 
+powerful and easy tool for customizing passwords access depending on the user’s role.
+</div>
 
 ## Follow Teampass
 <div class="posts">
@@ -41,3 +47,45 @@ data-header="false" data-stream="false" data-show-border="false"></div>
 </div>
 
 
+<div class="posts">
+	<h1 class="post-title">
+		Last Posts
+	</h1>
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h2 class="post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <span class="post-date">
+			{{ post.date | date_to_string }} •
+			<a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.path | split:'/' | last | cgi_escape }}">View 
+Comments</a>
+		</span>
+		{% if post.content contains '<span class="linkmore"></span>' %}
+			{{ post.content | split:'<span class="linkmore"></span>' | first }}
+			<p><a href="{{ site.baseurl }}{{ post.url }}">[Continue reading]</a></p>
+		{% else %}
+				{{ post.content }}
+		{% endif %}
+		
+  </div>
+  {% endfor %}
+	
+</div> <div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>
