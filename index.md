@@ -11,7 +11,7 @@ tagline: Welcome to Teampass.Net
 provide passwords access security for allowed people. This makes TeamPass really useful in a Business/Enterprise environment and will provide to IT or Team Manager a 
 powerful and easy tool for customizing passwords access depending on the user's role.
 </div>
-<br /><br/>
+<br/>
 
 # Follow Teampass
 <div class="posts">
@@ -25,14 +25,14 @@ powerful and easy tool for customizing passwords access depending on the user's 
                 fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
         <div class="fb-like-box" data-href="http://www.facebook.com/pages/TeamPass-Passwords-for-Teams/163627833721400" data-width="600" data-show-faces="true"
-data-header="false" data-stream="false" data-show-border="false" colorscheme="dark"></div>
+data-header="false" data-stream="false" data-show-border="false" data-colorscheme="dark"></div>
         <br /><br />
         <!-- TWITTER -->
         <a href="https://twitter.com/TheTeamPass" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @theteampass</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 	<br />
 </div>
-<br /><br />
+<br />
 
 # Latest Posts
 
