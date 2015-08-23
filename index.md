@@ -44,8 +44,5 @@ data-header="false" data-stream="false" data-show-border="false" data-colorschem
 
 
 <br /><br />
-<div class="posts">
-<br /><br />
-</div>
 
 
