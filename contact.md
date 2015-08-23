@@ -1,8 +1,9 @@
 ---
-layout: 		page
-title: 			Contact
-comments:		false
-noToc:			true
+layout: 	page
+title: 		Contact
+comments:	false
+noToc:		true
+group: 		navigation
 ---
 
 <p class="message">
