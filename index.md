@@ -31,10 +31,10 @@ Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.ht
         }(document, 'script', 'facebook-jssdk'));</script>
         <div class="fb-like-box" data-href="http://www.facebook.com/pages/TeamPass-Passwords-for-Teams/163627833721400" data-width="600" data-show-faces="true"
 data-header="false" data-stream="false" data-show-border="false"></div>
-        <!-- TWITTER -->
 </div>
 <br>
 <div class="posts">
+	<!-- TWITTER -->
         <a href="https://twitter.com/TheTeamPass" class="twitter-follow-button" data-show-count="true" data-lang="en" data-size="large">Follow @theteampass</a>
         <script>!function(d,s,id){var
 js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs)$
