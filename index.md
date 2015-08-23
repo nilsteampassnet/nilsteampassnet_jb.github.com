@@ -13,7 +13,7 @@ powerful and easy tool for customizing passwords access depending on the user's 
 <br />
 </div>
 
-## Follow Teampass
+# Follow Teampass
 <div class="posts">
         <!-- FACEBOOK -->
         <div id="fb-root"></div>
@@ -33,7 +33,7 @@ data-header="false" data-stream="false" data-show-border="false"></div>
 	<br />
 </div>
 
-## Latest Posts
+# Latest Posts
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -48,46 +48,3 @@ data-header="false" data-stream="false" data-show-border="false"></div>
 </div>
 
 
-<div class="posts">
-	<h1 class="post-title">
-		Last Posts
-	</h1>
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h2 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-    <span class="post-date">
-			{{ post.date | date_to_string }} *
-			<a href="{{ site.baseurl }}{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.path | split:'/' | last | cgi_escape }}">View 
-Comments</a>
-		</span>
-		{% if post.content contains '<span class="linkmore"></span>' %}
-			{{ post.content | split:'<span class="linkmore"></span>' | first }}
-			<p><a href="{{ site.baseurl }}{{ post.url }}">[Continue reading]</a></p>
-		{% else %}
-				{{ post.content }}
-		{% endif %}
-		
-  </div>
-  {% endfor %}
-	
-</div>
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
