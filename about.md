@@ -15,7 +15,11 @@ group:		navigation
 
 ## Developer
 
-It has been entirely developed by <b>[Nils Laumaillé](nils@teampass.net)</b> based upon his original idea.
+It has been entirely developed by <b>[Nils LaumaillC)](nils@teampass.net)</b> based upon his original idea.
+
+Teampass is developped with PHPStorm by [JetBrains](https://www.jetbrains.com/).
+
+![PhpStorm](https://www.jetbrains.com/phpstorm/documentation/docs/logo_phpstorm.png)
 
 ## Github
 
